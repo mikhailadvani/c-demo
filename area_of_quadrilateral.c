@@ -34,6 +34,7 @@ int main()
 	else
 	{
 		printf("Invalid shape\n");
+		return 1;
 	}
 	return 0;
 }
