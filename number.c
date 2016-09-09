@@ -3,7 +3,7 @@
 int main()
 {
 	int a;
-	printf("Enter a number:");
+	printf("Enter side of a square: ");
 	scanf("%d",&a);
 	printf("Area: %d", a*a);
 	printf("\n");
