@@ -2,10 +2,10 @@
 
 int main()
 {
-	int a;
+	int side;
 	printf("Enter side of a square: ");
-	scanf("%d",&a);
-	printf("Area: %d", a*a);
+	scanf("%d",&side);
+	printf("Area: %d", side*side);
 	printf("\n");
 	return 0;
 }
