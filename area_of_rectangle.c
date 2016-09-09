@@ -15,7 +15,7 @@ int main()
 	{
 		printf("Enter side of square: ");
 		scanf("%d",&length);
-		printf("Area: %d", area_of_rectangle(length,length));
+		printf("Area of quadrilateral: %d", area_of_rectangle(length,length));
 		printf("\n");
 	}
 	else if(shape == 'R')
@@ -24,7 +24,7 @@ int main()
 		scanf("%d",&length);
 		printf("Enter breadth of a rectangle: ");
 		scanf("%d",&breadth);
-		printf("Area: %d", area_of_rectangle(length,breadth));
+		printf("Area of quadrilateral: %d", area_of_rectangle(length,breadth));
 		printf("\n");
 	}
 	else
